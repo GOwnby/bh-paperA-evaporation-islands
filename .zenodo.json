@@ -1,0 +1,20 @@
+﻿{
+    "keywords":  [
+                     "general relativity",
+                     "black holes",
+                     "Hayward metric",
+                     "numerical relativity",
+                     "theoretical physics"
+                 ],
+    "license":  "cc-by-4.0",
+    "title":  "Evaporation Toward a Degenerate Horizon: Islands, Asymptotics and the Horizonless Branch of the Hayward Black Hole",
+    "upload_type":  "publication",
+    "creators":  [
+                     {
+                         "name":  "Ownby, Gracen"
+                     }
+                 ],
+    "access_right":  "open",
+    "publication_type":  "preprint",
+    "description":  "LaTeX source, compiled PDF, and WKB/time-domain scalar wave simulation code for \u0027Evaporation Toward a Degenerate Horizon: Islands, Asymptotics and the Horizonless Branch of the Hayward Black Hole\u0027 (Paper A)."
+}

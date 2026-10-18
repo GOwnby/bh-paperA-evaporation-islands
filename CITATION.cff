@@ -1,0 +1,8 @@
+﻿cff-version: 1.2.0
+message: "If you use this software or manuscript, please cite it as below."
+authors:
+  - family-names: "Ownby"
+    given-names: "Gracen"
+title: "Evaporation Toward a Degenerate Horizon: Islands, Asymptotics and the Horizonless Branch of the Hayward Black Hole"
+version: "v1.0.0"
+date-released: "2026-10-18"
