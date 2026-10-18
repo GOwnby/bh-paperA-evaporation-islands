@@ -1,8 +1,10 @@
-﻿cff-version: 1.2.0
+cff-version: 1.2.0
 message: "If you use this software or manuscript, please cite it as below."
+title: "Evaporation Toward a Degenerate Horizon: Islands, Asymptotics and the Horizonless Branch of the Hayward Black Hole"
+abstract: "LaTeX source, compiled PDF, and WKB/time-domain scalar wave simulation code for Paper A."
 authors:
   - family-names: "Ownby"
     given-names: "Gracen"
-title: "Evaporation Toward a Degenerate Horizon: Islands, Asymptotics and the Horizonless Branch of the Hayward Black Hole"
-version: "v1.0.0"
+version: "v1.0.1"
 date-released: "2026-10-18"
+license: "CC-BY-4.0"
