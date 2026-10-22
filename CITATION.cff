@@ -1,12 +1,39 @@
 cff-version: 1.2.0
 message: "If you use this software or manuscript, please cite it as below."
 title: "Evaporation Toward a Degenerate Horizon: Islands, Asymptotics and the Horizonless Branch of the Hayward Black Hole"
-abstract: "LaTeX source, compiled PDF, and WKB/time-domain scalar wave simulation code for Paper A."
+abstract: >-
+  We study the late-stage evaporation of a Hayward-type regular black hole whose regularization scale
+  is tied to the mass so that the core density is mass-independent, eps^3 = 2GM l^2/c^2. The metric
+  has a critical mass M* = (3 sqrt(3)/4) l c^2/G at which its inner and outer horizons merge. Far from
+  M* it reproduces Schwarzschild to fractional order (l/M)^2, so to a distant observer the object is
+  an extremely time-dilated collapsed star. We make four points. First, the quasi-static (eternal
+  black hole) approximation used in the island literature is justified along the evaporation: an
+  adiabaticity parameter is of order 10^-83 for a 10 solar-mass hole, is small at M*, and, with the
+  near-extremal mass-loss law, vanishes as the endpoint is approached. Second, within the continuous
+  semiclassical mass-loss law the transition at M* is never completed in finite time. The horizon area
+  at M* is a fixed nonzero constant while the surface gravity vanishes, so the emission power scales
+  as eps^2 in the mass excess eps = M - M* and eps ~ 1/u. This is the analogue for this metric of the
+  unattainability of extremality known for charged black holes, and infinite evaporation times are
+  known for regular black holes in general; it is not a new structural statement. The continuous law
+  fails in a small window above M*, where the emission of a single quantum or near-extremal quantum-
+  gravity effects become important. Third, the island mechanism is argued, at leading adiabatic order
+  and through a heuristic extension of the static prescription, to remain intact along the approach.
+  The entropy plateau approaches, at leading order, the area value 3 pi l^2/G, the leading term of the
+  extremal Hayward island entropy of Kim and Nam (2021); the extremal result is not the limit of the
+  non-extremal one, and we do not resolve the subleading terms. Fourth, for M < M* the geometry has no
+  horizon and supports no island, by one argument in two steps: a purity argument reduces the
+  extremization to the area term, and the area then grows linearly near the point of maximal redshift,
+  leaving no critical point. For M >~ 0.81 M* it also has a stable inner light ring, as a general
+  theorem requires for smooth ultracompact objects satisfying the null energy condition; a test-scalar
+  WKB calculation, cross-validated against a time-domain evolution, finds genuinely long-lived trapped
+  modes there, consistent with the expectation that the horizonless configuration is not a stable
+  endpoint. Whether general relativity coupled to standard matter can supply the core is treated in a
+  companion paper.
 authors:
   - family-names: "Ownby"
     given-names: "Gracen"
-version: "v1.0.1"
-doi: "10.5281/zenodo.23455576"
-date-released: "2026-10-18"
-url: "https://doi.org/10.5281/zenodo.23455576"
-license: "CC-BY-4.0"
+version: "1.1.0"
+doi: "10.5281/zenodo.23455575"
+date-released: "2026-10-20"
+url: "https://doi.org/10.5281/zenodo.23455575"
+license: "CC-BY-4.0"   # manuscript, figures, data; code is MIT (see LICENSE.md)

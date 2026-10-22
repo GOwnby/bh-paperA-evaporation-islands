@@ -8,7 +8,7 @@
 \bibitem[Ageev and Zueva(2026)]{AgeevZueva2026}
 Dmitry~S. Ageev and Anastasia~N. Zueva.
 \newblock Entanglement islands, fuzzballs and stretched horizons, 2026.
-\newblock arXiv preprint, hep-th/gr-qc.
+\newblock arXiv:2605.08347.
 
 \bibitem[Ageev et~al.(2025)Ageev, Aref'eva, and
   Rusalev]{AgeevArefevaRusalev2025}
@@ -16,27 +16,30 @@ Dmitry~S. Ageev, Irina~Ya. Aref'eva, and Timofei~A. Rusalev.
 \newblock Black holes, cavities, and blinking islands.
 \newblock \emph{Physical Review D}, 111:\penalty0 026002, 2025.
 \newblock \doi{10.1103/PhysRevD.111.026002}.
+\newblock arXiv:2311.16244.
 
 \bibitem[Almheiri et~al.(2020)Almheiri, Mahajan, Maldacena, and Zhao]{AMMZ2019}
 Ahmed Almheiri, Raghu Mahajan, Juan Maldacena, and Ying Zhao.
-\newblock The page curve of hawking radiation from semiclassical geometry.
+\newblock The {P}age curve of {H}awking radiation from semiclassical geometry.
 \newblock \emph{Journal of High Energy Physics}, 2020\penalty0 (3):\penalty0
   149, 2020.
 \newblock \doi{10.1007/JHEP03(2020)149}.
+\newblock arXiv:1908.10996.
 
 \bibitem[Almheiri et~al.(2021)Almheiri, Hartman, Maldacena, Shaghoulian, and
   Tajdini]{AHMST2020}
 Ahmed Almheiri, Thomas Hartman, Juan Maldacena, Edgar Shaghoulian, and
   Amirhossein Tajdini.
-\newblock The entropy of hawking radiation.
+\newblock The entropy of {H}awking radiation.
 \newblock \emph{Reviews of Modern Physics}, 93:\penalty0 035002, 2021.
 \newblock \doi{10.1103/RevModPhys.93.035002}.
+\newblock arXiv:2006.06872.
 
 \bibitem[Anand et~al.(2026)Anand, Jusufi, Khodahami, and Sheykhi]{Anand2026}
 Ankit Anand, Kimet Jusufi, Amir~A. Khodahami, and Ahmad Sheykhi.
 \newblock Entanglement islands and information recovery from near-extremal
   regular black holes, 2026.
-\newblock arXiv preprint, hep-th.
+\newblock arXiv:2608.18603.
 
 \bibitem[Bardeen(1968)]{Bardeen1968}
 James~M. Bardeen.
@@ -47,17 +50,22 @@ James~M. Bardeen.
 \bibitem[Bonanno and Reuter(2000)]{BonannoReuter2000}
 Alfio Bonanno and Martin Reuter.
 \newblock Renormalization group improved black hole spacetimes.
-\newblock \emph{Physical Review D}, 62:\penalty0 043008, 2000.
+\newblock \emph{Physical Review D}, 62\penalty0 (4):\penalty0 043008, 2000.
+\newblock \doi{10.1103/PhysRevD.62.043008}.
 
 \bibitem[Bonanno et~al.(2021)Bonanno, Khosravi, and Saueressig]{Bonanno2021}
 Alfio Bonanno, Amir-Pouyan Khosravi, and Frank Saueressig.
 \newblock Regular black holes with stable cores.
 \newblock \emph{Physical Review D}, 103:\penalty0 124027, 2021.
+\newblock \doi{10.1103/PhysRevD.103.124027}.
+\newblock arXiv:2010.04226.
 
 \bibitem[Bonanno et~al.(2023)Bonanno, Khosravi, and Saueressig]{Bonanno2023}
 Alfio Bonanno, Amir-Pouyan Khosravi, and Frank Saueressig.
 \newblock Regular evaporating black holes with stable cores.
-\newblock \emph{Physical Review D}, 107:\penalty0 024005, 2023.
+\newblock \emph{Physical Review D}, 107\penalty0 (2):\penalty0 024005, 2023.
+\newblock \doi{10.1103/PhysRevD.107.024005}.
+\newblock arXiv:2209.10612.
 
 \bibitem[Borde(1997)]{Borde1997}
 Arvind Borde.
@@ -65,36 +73,47 @@ Arvind Borde.
 \newblock \emph{Physical Review D}, 55\penalty0 (12):\penalty0 7615--7617,
   1997.
 \newblock \doi{10.1103/PhysRevD.55.7615}.
+\newblock arXiv:gr-qc/9612057.
 
 \bibitem[Borissova and
   Carballo-Rubio(2026{\natexlab{a}})]{BorissovaCarballoRubio2026}
-J.~Borissova and Ra{\'u}l Carballo-Rubio.
+Johanna Borissova and Ra{\'u}l Carballo-Rubio.
 \newblock Effective geometrodynamics for renormalization-group improved
   black-hole spacetimes in spherical symmetry.
-\newblock \emph{Journal of Cosmology and Astroparticle Physics}, 2026:\penalty0
-  023, 2026{\natexlab{a}}.
+\newblock \emph{Journal of Cosmology and Astroparticle Physics}, 2026\penalty0
+  (05):\penalty0 023, 2026{\natexlab{a}}.
+\newblock \doi{10.1088/1475-7516/2026/05/023}.
+\newblock arXiv:2601.17115.
 
 \bibitem[Borissova and
   Carballo-Rubio(2026{\natexlab{b}})]{BorissovaCarballoRubio4D2026}
-J.~Borissova and Ra{\'u}l Carballo-Rubio.
+Johanna Borissova and Ra{\'u}l Carballo-Rubio.
 \newblock Regular black holes from pure gravity in four dimensions.
 \newblock \emph{Physical Review D}, 113:\penalty0 124004, 2026{\natexlab{b}}.
+\newblock \doi{10.1103/6x2z-qbkh}.
+\newblock arXiv:2602.16773.
 
-\bibitem[Brown et~al.(2024)Brown, Iliesiu, Penington, and Usatyuk]{Brown2024}
+\bibitem[Brown et~al.(2026)Brown, Iliesiu, Penington, and Usatyuk]{Brown2026}
 Adam~R. Brown, Luca~V. Iliesiu, Geoff Penington, and Mykhaylo Usatyuk.
-\newblock The evaporation of charged black holes, 2024.
-\newblock arXiv preprint, hep-th.
+\newblock The evaporation of charged black holes.
+\newblock \emph{Journal of High Energy Physics}, 2026\penalty0 (1):\penalty0
+  109, 2026.
+\newblock \doi{10.1007/JHEP01(2026)109}.
+\newblock arXiv:2411.03447.
 
 \bibitem[Bueno et~al.(2025)Bueno, Cano, and Hennigar]{BuenoCanoHennigar2025}
 Pablo Bueno, Pablo~A. Cano, and Robie~A. Hennigar.
 \newblock Regular black holes from pure gravity.
 \newblock \emph{Physics Letters B}, 861:\penalty0 139260, 2025.
+\newblock \doi{10.1016/j.physletb.2025.139260}.
+\newblock arXiv:2403.04827.
 
-\bibitem[Bueno et~al.(2026)Bueno, Cano, Hennigar, and Murcia]{BuenoNonPoly2026}
+\bibitem[Bueno et~al.(2026)Bueno, Cano, Hennigar, and Murcia]{BuenoNonPoly2025}
 Pablo Bueno, Pablo~A. Cano, Robie~A. Hennigar, and {\'A}ngel~J. Murcia.
 \newblock Regular black hole formation in four-dimensional nonpolynomial
   gravities.
-\newblock \emph{Physical Review D}, 113:\penalty0 024019, 2026.
+\newblock \emph{Physical Review D}, 113\penalty0 (2):\penalty0 024019, 2026.
+\newblock \doi{10.1103/8f3j-zcxh}.
 
 \bibitem[Carballo-Rubio et~al.(2018)Carballo-Rubio, Di~Filippo, Liberati,
   Pacilio, and Visser]{CarballoRubio2018}
@@ -103,22 +122,29 @@ Ra{\'u}l Carballo-Rubio, Francesco Di~Filippo, Stefano Liberati, Costantino
 \newblock On the viability of regular black holes.
 \newblock \emph{Journal of High Energy Physics}, 2018\penalty0 (7):\penalty0
   023, 2018.
+\newblock \doi{10.1007/JHEP07(2018)023}.
+\newblock arXiv:1805.02675.
 
 \bibitem[Carballo-Rubio et~al.(2021)Carballo-Rubio, Di~Filippo, Liberati,
   Pacilio, and Visser]{CarballoRubio2021}
-Ra\'ul Carballo-Rubio, Francesco Di~Filippo, Stefano Liberati, Costantino
+Ra{\'u}l Carballo-Rubio, Francesco Di~Filippo, Stefano Liberati, Costantino
   Pacilio, and Matt Visser.
 \newblock Inner horizon instability and the unstable cores of regular black
   holes.
 \newblock \emph{Journal of High Energy Physics}, 2021\penalty0 (5):\penalty0
   132, 2021.
+\newblock \doi{10.1007/JHEP05(2021)132}.
+\newblock arXiv:2101.05006.
 
-\bibitem[Carballo-Rubio et~al.(2022)Carballo-Rubio, Di~Filippo, Liberati, and
+\bibitem[Carballo-Rubio et~al.(2023)Carballo-Rubio, Di~Filippo, Liberati, and
   Visser]{CarballoRubio2022}
 Ra{\'u}l Carballo-Rubio, Francesco Di~Filippo, Stefano Liberati, and Matt
   Visser.
 \newblock A connection between regular black holes and horizonless ultracompact
-  stars, 2022.
+  stars.
+\newblock \emph{Journal of High Energy Physics}, 2023\penalty0 (8):\penalty0
+  046, 2023.
+\newblock \doi{10.1007/JHEP08(2023)046}.
 \newblock arXiv:2211.05817.
 
 \bibitem[Cardoso et~al.(2014)Cardoso, Crispino, Macedo, Okawa, and
@@ -127,37 +153,46 @@ Vitor Cardoso, Lu{\'i}s C.~B. Crispino, Caio F.~B. Macedo, Hirotada Okawa, and
   Paolo Pani.
 \newblock Light rings as observational evidence for event horizons: Long-lived
   modes, ergoregions and nonlinear instabilities of ultracompact objects.
-\newblock \emph{Physical Review D}, 90:\penalty0 044069, 2014.
+\newblock \emph{Physical Review D}, 90\penalty0 (4):\penalty0 044069, 2014.
+\newblock \doi{10.1103/PhysRevD.90.044069}.
 
 \bibitem[Casadio et~al.(2016)Casadio, Giugno, and Micu]{CasadioGiugnoMicu2016}
 Roberto Casadio, Andrea Giugno, and Octavian Micu.
 \newblock Horizon quantum mechanics: A hitchhiker's guide to quantum black
   holes.
-\newblock \emph{International Journal of Modern Physics D}, 25:\penalty0
-  1630006, 2016.
-\newblock \doi{10.1142/S0218271816300066}.
+\newblock \emph{International Journal of Modern Physics D}, 25\penalty0
+  (02):\penalty0 1630006, 2016.
+\newblock \doi{10.1142/S0218271816300068}.
 
 \bibitem[Chen et~al.(2015)Chen, Ong, and Yeom]{ChenOngYeom2015}
 Pisin Chen, Yen~Chin Ong, and Dong-han Yeom.
 \newblock Black hole remnants and the information loss paradox.
 \newblock \emph{Physics Reports}, 603:\penalty0 1--45, 2015.
+\newblock \doi{10.1016/j.physrep.2015.10.007}.
+\newblock arXiv:1412.8366.
 
 \bibitem[Cunha et~al.(2017)Cunha, Berti, and Herdeiro]{CunhaBertiHerdeiro2017}
 Pedro V.~P. Cunha, Emanuele Berti, and Carlos A.~R. Herdeiro.
 \newblock Light-ring stability for ultracompact objects.
-\newblock \emph{Physical Review Letters}, 119:\penalty0 251102, 2017.
+\newblock \emph{Physical Review Letters}, 119\penalty0 (25):\penalty0 251102,
+  2017.
+\newblock \doi{10.1103/PhysRevLett.119.251102}.
 
 \bibitem[Cunha et~al.(2023)Cunha, Herdeiro, Radu, and Sanchis-Gual]{Cunha2023}
 Pedro V.~P. Cunha, Carlos Herdeiro, Eugen Radu, and Nicolas Sanchis-Gual.
 \newblock Exotic compact objects and the fate of the light-ring instability.
 \newblock \emph{Physical Review Letters}, 130:\penalty0 061401, 2023.
+\newblock \doi{10.1103/PhysRevLett.130.061401}.
+\newblock arXiv:2207.13713.
 
 \bibitem[Di~Filippo et~al.(2024)Di~Filippo, Liberati, and
   Visser]{DiFilippo2024}
 Francesco Di~Filippo, Stefano Liberati, and Matt Visser.
-\newblock Fully extremal black holes: A black hole graveyard?
+\newblock Fully extremal black holes: {A} black hole graveyard?
 \newblock \emph{International Journal of Modern Physics D}, 33\penalty0
   (15):\penalty0 2440005, 2024.
+\newblock \doi{10.1142/S0218271824400054}.
+\newblock arXiv:2405.08069.
 
 \bibitem[Engelhardt and Wall(2015)]{EngelhardtWall2015}
 Netta Engelhardt and Aron~C. Wall.
@@ -166,12 +201,15 @@ Netta Engelhardt and Aron~C. Wall.
 \newblock \emph{Journal of High Energy Physics}, 2015\penalty0 (1):\penalty0
   073, 2015.
 \newblock \doi{10.1007/JHEP01(2015)073}.
+\newblock arXiv:1408.3203.
 
 \bibitem[{Event Horizon Telescope Collaboration}(2019)]{EHT2019}
 {Event Horizon Telescope Collaboration}.
 \newblock First {M87} {E}vent {H}orizon {T}elescope results. {I}. {T}he shadow
   of the supermassive black hole.
-\newblock \emph{The Astrophysical Journal Letters}, 875:\penalty0 L1, 2019.
+\newblock \emph{The Astrophysical Journal Letters}, 875\penalty0 (1):\penalty0
+  L1, 2019.
+\newblock \doi{10.3847/2041-8213/ab0ec7}.
 
 \bibitem[Franzin et~al.(2024)Franzin, Liberati, and Vellucci]{Franzin2024}
 Edgardo Franzin, Stefano Liberati, and Vania Vellucci.
@@ -179,35 +217,44 @@ Edgardo Franzin, Stefano Liberati, and Vania Vellucci.
   instabilities and spectroscopy.
 \newblock \emph{Journal of Cosmology and Astroparticle Physics}, 2024\penalty0
   (01):\penalty0 020, 2024.
+\newblock \doi{10.1088/1475-7516/2024/01/020}.
+\newblock arXiv:2310.11990.
 
 \bibitem[Frolov(2016)]{Frolov2016}
 Valeri~P. Frolov.
 \newblock Notes on nonsingular models of black holes.
-\newblock \emph{Physical Review D}, 94:\penalty0 104056, 2016.
+\newblock \emph{Physical Review D}, 94\penalty0 (10):\penalty0 104056, 2016.
+\newblock \doi{10.1103/PhysRevD.94.104056}.
+\newblock arXiv:1609.01758.
 
 \bibitem[Gralla(2026)]{Gralla2026}
 Samuel~E. Gralla.
 \newblock Can black holes evaporate past extremality?
 \newblock \emph{Physical Review D}, 113\penalty0 (6):\penalty0 064012, 2026.
+\newblock \doi{10.1103/jkj8-9lty}.
+\newblock Erratum: Phys. Rev. D 114, 089901 (2026), doi 10.1103/y959-6g4w.
 
 \bibitem[Hashimoto et~al.(2020)Hashimoto, Iizuka, and Matsuo]{Hashimoto2020}
 Koji Hashimoto, Norihiro Iizuka, and Yoshinori Matsuo.
-\newblock Islands in {Schwarzschild} black holes.
+\newblock Islands in {S}chwarzschild black holes.
 \newblock \emph{Journal of High Energy Physics}, 2020\penalty0 (6):\penalty0
   085, 2020.
 \newblock \doi{10.1007/JHEP06(2020)085}.
+\newblock arXiv:2004.05863.
 
 \bibitem[Hayward(2006)]{Hayward2006}
 Sean~A. Hayward.
 \newblock Formation and evaporation of nonsingular black holes.
 \newblock \emph{Physical Review Letters}, 96:\penalty0 031103, 2006.
 \newblock \doi{10.1103/PhysRevLett.96.031103}.
+\newblock arXiv:gr-qc/0506126.
 
 \bibitem[Iliesiu and Turiaci(2021)]{IliesiuTuriaci2021}
 Luca~V. Iliesiu and Gustavo~J. Turiaci.
 \newblock The statistical mechanics of near-extremal black holes.
 \newblock \emph{Journal of High Energy Physics}, 2021\penalty0 (5):\penalty0
   145, 2021.
+\newblock \doi{10.1007/JHEP05(2021)145}.
 
 \bibitem[Kim and Nam(2021)]{KimNam2021}
 Wontae Kim and Mungon Nam.
@@ -215,24 +262,30 @@ Wontae Kim and Mungon Nam.
   black holes with an island.
 \newblock \emph{European Physical Journal C}, 81:\penalty0 869, 2021.
 \newblock \doi{10.1140/epjc/s10052-021-09680-x}.
+\newblock arXiv:2103.16163.
 
 \bibitem[Kudryavcev et~al.(2026)Kudryavcev, Ling, and Vertogradov]{KLV2026}
-D.~Kudryavcev, Y.~Ling, and V.~Vertogradov.
+Dmitriy Kudryavcev, Yi~Ling, and Vitalii Vertogradov.
 \newblock Exact dynamical regular black holes from generalized polytropic
   matter.
-\newblock \emph{European Physical Journal C}, 86:\penalty0 780, 2026.
+\newblock \emph{The European Physical Journal C}, 86\penalty0 (7):\penalty0
+  780, 2026.
+\newblock \doi{10.1140/epjc/s10052-026-15869-9}.
 
-\bibitem[Luongo et~al.(2024)Luongo, Mancini, and Pierosara]{Luongo2024}
+\bibitem[Luongo et~al.(2023)Luongo, Mancini, and Pierosara]{Luongo2023}
 Orlando Luongo, Stefano Mancini, and Paolo Pierosara.
-\newblock Entanglement entropy for spherically symmetric regular black holes,
-  2024.
-\newblock arXiv preprint.
+\newblock Entanglement entropy for spherically symmetric regular black holes.
+\newblock \emph{Physical Review D}, 108:\penalty0 104059, 2023.
+\newblock \doi{10.1103/PhysRevD.108.104059}.
+\newblock arXiv:2304.06593.
 
-\bibitem[Mehdipour and Ahmadi(2016)]{MehdipourAhmadi2016}
+\bibitem[Mehdipour and Ahmadi(2018)]{MehdipourAhmadi2016}
 S.~H. Mehdipour and M.~H. Ahmadi.
 \newblock Black hole remnants in {H}ayward solutions and noncommutative
-  effects, 2016.
-\newblock arXiv preprint.
+  effects.
+\newblock \emph{Nuclear Physics B}, 926:\penalty0 49--69, 2018.
+\newblock \doi{10.1016/j.nuclphysb.2017.09.021}.
+\newblock arXiv:1604.08584.
 
 \bibitem[Oppenheimer and Snyder(1939)]{OppenheimerSnyder1939}
 J.~R. Oppenheimer and H.~Snyder.
@@ -242,9 +295,9 @@ J.~R. Oppenheimer and H.~Snyder.
 
 \bibitem[Ownby(2026)]{PaperB}
 Gracen Ownby.
-\newblock Matter-sourced regular cores in general relativity: dynamical and
-  field-theoretic obstructions.
-\newblock companion paper, in preparation, 2026.
+\newblock {M}atter-{S}ourced {R}egular {C}ores in {G}eneral {R}elativity:
+  {D}ynamical and {F}ield-{T}heoretic {O}bstructions.
+\newblock Zenodo, \url{https://doi.org/10.5281/zenodo.23455579}, 2026.
 
 \bibitem[Page(1993)]{Page1993}
 Don~N. Page.
@@ -259,6 +312,7 @@ Geoffrey Penington.
 \newblock \emph{Journal of High Energy Physics}, 2020\penalty0 (9):\penalty0
   002, 2020.
 \newblock \doi{10.1007/JHEP09(2020)002}.
+\newblock arXiv:1905.08255.
 
 \bibitem[Penrose(1965)]{Penrose1965}
 Roger Penrose.
@@ -278,30 +332,33 @@ Eric Poisson and Werner Israel.
 John Preskill, Patricia Schwarz, Alfred~D. Shapere, Sandip Trivedi, and Frank
   Wilczek.
 \newblock Limitations on the statistical description of black holes.
-\newblock \emph{Modern Physics Letters A}, 6:\penalty0 2353--2362, 1991.
+\newblock \emph{Modern Physics Letters A}, 6\penalty0 (26):\penalty0 2353,
+  1991.
+\newblock \doi{10.1142/S0217732391002773}.
 
 \bibitem[Rusalev(2025)]{Rusalev2025}
 Timofei Rusalev.
-\newblock Entanglement entropy in jackiw--teitelboim de sitter gravity with
-  timelike boundaries, 2025.
-\newblock arXiv preprint, hep-th.
+\newblock Entanglement entropy in {J}ackiw--{T}eitelboim de {S}itter gravity
+  with timelike boundaries, 2025.
+\newblock arXiv:2509.12975.
 
 \bibitem[Sorkin and Piran(2001)]{SorkinPiran2001}
 Evgeny Sorkin and Tsvi Piran.
 \newblock Formation and evaporation of charged black holes.
-\newblock \emph{Physical Review D}, 63:\penalty0 124024, 2001.
+\newblock \emph{Physical Review D}, 63\penalty0 (12):\penalty0 124024, 2001.
 \newblock \doi{10.1103/PhysRevD.63.124024}.
+\newblock arXiv:gr-qc/0103090.
 
-\bibitem[Sueto and Yoshino(2026)]{SuetoYoshino2026}
+\bibitem[Sueto and Yoshino(2025)]{SuetoYoshino2025}
 Kensuke Sueto and Hirotaka Yoshino.
 \newblock Classification of global structures of evaporating regular black
-  holes with infinite periods of time.
-\newblock \emph{Classical and Quantum Gravity}, 2026.
+  holes with infinite periods of time, 2025.
+\newblock arXiv:2508.21315.
 
 \bibitem[Takeuchi(2026)]{Takeuchi2026}
 Shingo Takeuchi.
-\newblock The remnant of an evaporating rotating regular black hole from the
-  generalized entropy in the final stage of evaporation, 2026.
-\newblock arXiv preprint, hep-th.
+\newblock The remnant of a rotating regular black hole from the generalized
+  entropy in the final stage of evaporation, 2026.
+\newblock arXiv:2607.08661.
 
 \end{thebibliography}

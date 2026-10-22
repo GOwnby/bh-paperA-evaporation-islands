@@ -1,0 +1,9 @@
+# numpy 2.5.3; scipy 1.18.1
+l=2, M=0.90 M*, observer x=25, window t in [500,2200]
+WKB (wkb.py): omega_R = 0.4303, |Im omega| = 2.712e-03
+Nx=3000: omega_R = 0.4297   decay rate = 3.079e-03   (decay / WKB = 1.14)
+        damped-sinusoid least squares: omega_R = 0.42966   decay rate = 3.0755e-03
+Nx=6000: omega_R = 0.4296   decay rate = 3.084e-03   (decay / WKB = 1.14)
+        damped-sinusoid least squares: omega_R = 0.42965   decay rate = 3.0814e-03
+Nx=12000: omega_R = 0.4294   decay rate = 3.087e-03   (decay / WKB = 1.14)
+        damped-sinusoid least squares: omega_R = 0.42964   decay rate = 3.0844e-03

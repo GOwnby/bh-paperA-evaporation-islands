@@ -1,0 +1,3 @@
+x range: [0, 105.43]  (r up to 80.0)
+l=2, M/M*=0.9, Nx=12000, dx=0.0075, dt=0.0030, Nt=733272
+saved output/td_l2_nx12000.npz , signal length 733272

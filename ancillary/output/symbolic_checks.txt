@@ -1,0 +1,23 @@
+# numpy 2.5.3
+# sympy 1.14.0
+[PASS] horizon_polynomial_double_root_at_Mstar: f=P/D; P(r_h)=P'(r_h)=0 at M*; P''(r_h)=3*sqrt(3)*ell != 0, dP/dM=-4*ell**2 != 0
+[PASS] discriminant_unique_critical_mass: discriminant_r(P) = 4*M**2*ell**2*(16*M**2 - 27*ell**2); its only positive root is M* = [3*sqrt(3)*ell/4]; sign>0 at 1.1M* (3 real roots), <0 at 0.9M* (1 real root)
+[PASS] no_horizon_below_Mstar_exact: P'(r)=r(3r-4M); min_(r>0) P = P(4M/3) = -2*M*(16*M**2 - 27*ell**2)/27 > 0 iff M < 3 sqrt3 ell/4 = M*: no horizon for M<M*, two for M>M*
+[PASS] horizon_area_at_Mstar: A(M*) = 4 pi r_h^2 = 12 pi ell^2
+[PASS] fold_scaling_r_pm: eps=s^2: r_pm - r_h = a1 s + a2 s^2: a1 = [-2*sqrt(2)*3**(1/4)/3, 2*sqrt(2)*3**(1/4)/3] (= +-2 sqrt2 3^(1/4)/3 sqrt(ell eps)), a2 = [28/27, 28/27] (same for both branches)
+[PASS] c_kappa_value: kappa = f'(r_+)/2 = 2*sqrt(2)*3**(1/4)/9 sqrt(eps) = c_kappa sqrt(eps), c_kappa = 2 sqrt2 3^(1/4)/9 = 0.413602
+[PASS] near_horizon_AdS2_at_Mstar: at M*: f = x**2*(-4*sqrt(3)*x + 9)/27 + ..., i.e. f ~ (r-r_h)^2/(3 ell^2); AdS2 radius^2 = 2/f'' = 3 ell^2 = r_h^2
+[PASS] eta_expansion_r_plus_and_kappa: r_+ = 2M(1 + (-1/4) eta + (-1/8) eta^2 + (-7/64) eta^3 ...); kappa/kappa_Schw = -3*eta**3/8 - 3*eta**2/8 - eta/2 + 1
+[PASS] time_dilation_closed_form: f(r=2M) = ell^2/(4M^2+ell^2), hence Gamma = sqrt(f(2M)) = ell/sqrt(4M^2+ell^2) (Fig. 1 curve)
+[PASS] hawking_power_adiabaticity_Mbreak: P = sigma (4 pi r_s^2) T_H^4 [Stefan-Boltzmann]; A = P (r_s/c)/(M c^2) = hbar c/(7680 pi G M^2); A=1 at M_break = sqrt(30)*sqrt(c)*sqrt(hbar)/(480*sqrt(pi)*sqrt(G))
+[PASS] hawking_cube_root_law: M(t) = (M0^3 - 3 k t)^(1/3), k = hbar c^4/(15360 pi G^2) [i.e. M ~ (t_f - t)^(1/3)]; t_evap = 5120*pi*G**2*M0**3/(c**4*hbar)
+[PASS] near_Mstar_scaling_chain: d eps/du = -K eps^2 => eps = 1/(C + K*u) (never 0 at finite u); dr_+/du = -sqrt(2)*3**(1/4)*K*e**(3/2)/3 ~ eps^(3/2); delta/r_+ = sqrt(3)*K*e/2 ~ eps; kappa'/kappa^2 = -3*sqrt(2)*3**(3/4)*K*sqrt(e)/8 ~ sqrt(eps)
+[PASS] far_field_identity_delta_over_r_equals_2A: delta/r_+ = 1/(3840*pi*M_m**2) = 2 A(M) with A = 1/(7680*pi*M_m**2)
+[PASS] kruskal_like_coordinate_derivative: U = -exp(-K)/kappa, K' = kappa: dU/du = exp(-K)[1 + kappa'/kappa^2]
+[PASS] horizonless_r_min_and_f_min: f' numerator = 2*M*r*(-4*M*ell**2 + r**3): unique positive root r_min = (4 M ell^2)^(1/3) = 2^(2/3) M^(1/3) ell^(2/3); f(r_min) = 1 - t**2 = 1-(M/M*)^(2/3) with t=(M/M*)^(1/3)
+[PASS] area_grows_linearly: d(4 pi r^2)/dr = 8 pi r != 0 for every r>0
+[PASS] light_ring_threshold_and_Mstar_rings: light rings = stationary points of f/r^2 (eikonal potential); numerator N(r;M) = -2*(4*M**2 - 3*M*r**5 + 4*M*r**3 + r**6) (ell=1); discriminant_r = 186624*M**12*(3125*M**2 - 3456); double root at M_c = 24*sqrt(30)/125 ell, i.e. M_c/M* = 32/25 sqrt(2/5) = 0.80954308: for M_c < M < M* there are 2 positive roots (inner minimum + outer maximum of f/r^2), for M < M_c none (checked with Sturm counts 2, 0); at M*: inner minimum f/r^2=0 at r=sqrt3=r_h; stationary points r = [1.73205, 3.44552]
+[PASS] regge_wheeler_reduction_of_scalar_wave_equation: for metric -f dt^2 + dr^2/f + r^2 dOmega^2 and Phi = (psi/r) Y e^{-i w t}: d^2psi/dx^2 + (w^2 - V) psi = f r [radial wave operator on Phi]; V = f [l(l+1)/r^2 + f'/r]
+[PASS] group_velocity_round_trip_time: omega^2 = k^2 + V: group velocity d omega/dk = k/omega = sqrt(omega^2 - V)/omega (round-trip time T = omega_R * 2 int dr/(f sqrt(omega^2-V)))
+
+SYMBOLIC SUMMARY: 19/19 checks passed

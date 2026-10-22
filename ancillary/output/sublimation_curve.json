@@ -1,0 +1,11 @@
+{
+ "Gamma_M1": 0.0004999999375293843,
+ "Gamma_M1e-4": 0.9805806756909202,
+ "Gamma_at_Mstar": 0.35921060405354976,
+ "Mstar": 0.001299038105676658,
+ "ell": 0.001,
+ "max_abs_dev_from_closed_form": 2.490926302028962e-13,
+ "monotone_increasing_as_M_decreases": true,
+ "shipped_png_mean_abs_pixel_diff": 0.033108823001384735,
+ "shipped_png_same_shape": true
+}

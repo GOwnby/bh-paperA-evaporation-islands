@@ -1,0 +1,1592 @@
+[
+ {
+  "id": "S01",
+  "where": "Sec. 2.2",
+  "quantity": "[sympy, exact] P(r_h)=P'(r_h)=0 at M*=3sqrt3 ell/4, r_h=sqrt3 ell; P'' and dP/dM nonzero ('exact signature of two roots merging')",
+  "cmp": "true",
+  "src": [
+   "symbolic_checks.json",
+   "horizon_polynomial_double_root_at_Mstar",
+   "ok"
+  ],
+  "reason": "exact symbolic identity (check_symbolic.py)",
+  "mode": "quick",
+  "paper": true
+ },
+ {
+  "id": "S02",
+  "where": "Sec. 2.2",
+  "quantity": "[sympy, exact] discriminant of r^3-2Mr^2+2M ell^2 vanishes only at M*; 3 real roots above, 1 below",
+  "cmp": "true",
+  "src": [
+   "symbolic_checks.json",
+   "discriminant_unique_critical_mass",
+   "ok"
+  ],
+  "reason": "exact symbolic identity (check_symbolic.py)",
+  "mode": "quick",
+  "paper": true
+ },
+ {
+  "id": "S03",
+  "where": "Sec. 2.2 / 5.1",
+  "quantity": "[sympy, exact] min_(r>0) P = P(4M/3) > 0 iff M<M*: no positive root for M<M*",
+  "cmp": "true",
+  "src": [
+   "symbolic_checks.json",
+   "no_horizon_below_Mstar_exact",
+   "ok"
+  ],
+  "reason": "exact symbolic identity (check_symbolic.py)",
+  "mode": "quick",
+  "paper": true
+ },
+ {
+  "id": "S04",
+  "where": "Sec. 2.2",
+  "quantity": "[sympy, exact] A(M*) = 12 pi ell^2",
+  "cmp": "true",
+  "src": [
+   "symbolic_checks.json",
+   "horizon_area_at_Mstar",
+   "ok"
+  ],
+  "reason": "exact symbolic identity (check_symbolic.py)",
+  "mode": "quick",
+  "paper": true
+ },
+ {
+  "id": "S05",
+  "where": "Eq. (fold)",
+  "quantity": "[sympy, exact] r_pm - r_h = +-(2 sqrt2 3^(1/4)/3) sqrt(ell eps) to leading order",
+  "cmp": "true",
+  "src": [
+   "symbolic_checks.json",
+   "fold_scaling_r_pm",
+   "ok"
+  ],
+  "reason": "exact symbolic identity (check_symbolic.py)",
+  "mode": "quick",
+  "paper": true
+ },
+ {
+  "id": "S06",
+  "where": "Eq. (fold)",
+  "quantity": "[sympy, exact] kappa = c_kappa sqrt(eps)/ell^(3/2), c_kappa = 2 sqrt2 3^(1/4)/9 = 0.4136",
+  "cmp": "true",
+  "src": [
+   "symbolic_checks.json",
+   "c_kappa_value",
+   "ok"
+  ],
+  "reason": "exact symbolic identity (check_symbolic.py)",
+  "mode": "quick",
+  "paper": true
+ },
+ {
+  "id": "S07",
+  "where": "Sec. 2.2",
+  "quantity": "[sympy, exact] f ~ (r-r_h)^2/(3 ell^2) at M*; AdS2 radius = r_h = sqrt3 ell",
+  "cmp": "true",
+  "src": [
+   "symbolic_checks.json",
+   "near_horizon_AdS2_at_Mstar",
+   "ok"
+  ],
+  "reason": "exact symbolic identity (check_symbolic.py)",
+  "mode": "quick",
+  "paper": true
+ },
+ {
+  "id": "S08",
+  "where": "Sec. 2.2",
+  "quantity": "[sympy, exact] r_+ = 2M(1-eta/4-eta^2/8-...), kappa/kappa_Schw = 1-eta/2-3eta^2/8-...",
+  "cmp": "true",
+  "src": [
+   "symbolic_checks.json",
+   "eta_expansion_r_plus_and_kappa",
+   "ok"
+  ],
+  "reason": "exact symbolic identity (check_symbolic.py)",
+  "mode": "quick",
+  "paper": true
+ },
+ {
+  "id": "S09",
+  "where": "Sec. 2.3, Fig. 1",
+  "quantity": "[sympy, exact] Gamma = sqrt(f(2M)) = ell/sqrt(4M^2+ell^2)",
+  "cmp": "true",
+  "src": [
+   "symbolic_checks.json",
+   "time_dilation_closed_form",
+   "ok"
+  ],
+  "reason": "exact symbolic identity (check_symbolic.py)",
+  "mode": "quick",
+  "paper": true
+ },
+ {
+  "id": "S10",
+  "where": "Sec. 3.1",
+  "quantity": "[sympy, exact] P = sigma A_H T_H^4; A(M)=P(r_s/c)/(Mc^2)=hbar c/(7680 pi G M^2); M_break = sqrt(hbar c/(7680 pi G))",
+  "cmp": "true",
+  "src": [
+   "symbolic_checks.json",
+   "hawking_power_adiabaticity_Mbreak",
+   "ok"
+  ],
+  "reason": "exact symbolic identity (check_symbolic.py)",
+  "mode": "quick",
+  "paper": true
+ },
+ {
+  "id": "S11",
+  "where": "Sec. 3.1",
+  "quantity": "[sympy, exact] dM/du=-P gives M ~ (u_f-u)^(1/3), t_evap = 5120 pi G^2 M^3/(hbar c^4)",
+  "cmp": "true",
+  "src": [
+   "symbolic_checks.json",
+   "hawking_cube_root_law",
+   "ok"
+  ],
+  "reason": "exact symbolic identity (check_symbolic.py)",
+  "mode": "quick",
+  "paper": true
+ },
+ {
+  "id": "S12",
+  "where": "Sec. 3.2-3.3",
+  "quantity": "[sympy, exact] P~eps^2 => eps~1/u (never 0 at finite u); dr_+/du ~ eps^(3/2); delta/r_+ ~ eps; kappa'/kappa^2 ~ sqrt(eps)",
+  "cmp": "true",
+  "src": [
+   "symbolic_checks.json",
+   "near_Mstar_scaling_chain",
+   "ok"
+  ],
+  "reason": "exact symbolic identity (check_symbolic.py)",
+  "mode": "quick",
+  "paper": true
+ },
+ {
+  "id": "S13",
+  "where": "Eq. (far-field-identity)",
+  "quantity": "[sympy, exact] delta/r_+ = 2 A(M) far from M*",
+  "cmp": "true",
+  "src": [
+   "symbolic_checks.json",
+   "far_field_identity_delta_over_r_equals_2A",
+   "ok"
+  ],
+  "reason": "exact symbolic identity (check_symbolic.py)",
+  "mode": "quick",
+  "paper": true
+ },
+ {
+  "id": "S14",
+  "where": "Sec. 4.2",
+  "quantity": "[sympy, exact] dU/du = exp(-K)[1+kappa'/kappa^2]",
+  "cmp": "true",
+  "src": [
+   "symbolic_checks.json",
+   "kruskal_like_coordinate_derivative",
+   "ok"
+  ],
+  "reason": "exact symbolic identity (check_symbolic.py)",
+  "mode": "quick",
+  "paper": true
+ },
+ {
+  "id": "S15",
+  "where": "Sec. 5.1",
+  "quantity": "[sympy, exact] r_min = 2^(2/3) M^(1/3) ell^(2/3), f(r_min) = 1-(M/M*)^(2/3)",
+  "cmp": "true",
+  "src": [
+   "symbolic_checks.json",
+   "horizonless_r_min_and_f_min",
+   "ok"
+  ],
+  "reason": "exact symbolic identity (check_symbolic.py)",
+  "mode": "quick",
+  "paper": true
+ },
+ {
+  "id": "S16",
+  "where": "Sec. 5.2",
+  "quantity": "[sympy, exact] dA/dr = 8 pi r != 0 for r>0",
+  "cmp": "true",
+  "src": [
+   "symbolic_checks.json",
+   "area_grows_linearly",
+   "ok"
+  ],
+  "reason": "exact symbolic identity (check_symbolic.py)",
+  "mode": "quick",
+  "paper": true
+ },
+ {
+  "id": "S17",
+  "where": "Sec. 5.3",
+  "quantity": "[sympy, exact] light-ring pair (min+max of f/r^2) exists iff M > M_c = (32/25)sqrt(2/5) M* = 0.8095 M*; at M* inner ring at r_h",
+  "cmp": "true",
+  "src": [
+   "symbolic_checks.json",
+   "light_ring_threshold_and_Mstar_rings",
+   "ok"
+  ],
+  "reason": "exact symbolic identity (check_symbolic.py)",
+  "mode": "quick",
+  "paper": true
+ },
+ {
+  "id": "S18",
+  "where": "Eq. (RWpotential)",
+  "quantity": "[sympy, exact] scalar wave eq. -> psi_xx+(w^2-V)psi=0, V=f[l(l+1)/r^2+f'/r]",
+  "cmp": "true",
+  "src": [
+   "symbolic_checks.json",
+   "regge_wheeler_reduction_of_scalar_wave_equation",
+   "ok"
+  ],
+  "reason": "exact symbolic identity (check_symbolic.py)",
+  "mode": "quick",
+  "paper": true
+ },
+ {
+  "id": "S19",
+  "where": "Sec. 5.4",
+  "quantity": "[sympy, exact] group velocity sqrt(w^2-V)/w, T = w_R * 2 int dr/(f sqrt(w^2-V))",
+  "cmp": "true",
+  "src": [
+   "symbolic_checks.json",
+   "group_velocity_round_trip_time",
+   "ok"
+  ],
+  "reason": "exact symbolic identity (check_symbolic.py)",
+  "mode": "quick",
+  "paper": true
+ },
+ {
+  "id": "A01",
+  "where": "Sec. 2.2",
+  "quantity": "M* for ell=l_P [kg]",
+  "cmp": "rel",
+  "src": [
+   "analytic_checks.json",
+   "Mstar_kg"
+  ],
+  "reason": "paper quotes 3 s.f.",
+  "mode": "quick",
+  "paper": 2.83e-08,
+  "tol": 0.003
+ },
+ {
+  "id": "A02",
+  "where": "Sec. 2.2",
+  "quantity": "M*/m_P",
+  "cmp": "abs",
+  "src": [
+   "analytic_checks.json",
+   "Mstar_over_mP"
+  ],
+  "reason": "paper quotes 2 s.f.",
+  "mode": "quick",
+  "paper": 1.3,
+  "tol": 0.05
+ },
+ {
+  "id": "A03",
+  "where": "Sec. 4.4",
+  "quantity": "m_P [kg]",
+  "cmp": "rel",
+  "src": [
+   "analytic_checks.json",
+   "mP_kg"
+  ],
+  "reason": "paper quotes 4 s.f. (CODATA 2018)",
+  "mode": "quick",
+  "paper": 2.176e-08,
+  "tol": 0.001
+ },
+ {
+  "id": "A04",
+  "where": "Eq. (fold)",
+  "quantity": "(r_- - r_h)/[2sqrt2 3^(1/4)/3 sqrt(eps)] at eps=1e-8",
+  "cmp": "abs",
+  "src": [
+   "analytic_checks.json",
+   "fold",
+   "1e-08",
+   "r_minus_ratio"
+  ],
+  "reason": "limit eps->0; O(sqrt(eps)) corrections ~1e-4",
+  "mode": "quick",
+  "paper": -1.0,
+  "tol": 0.001
+ },
+ {
+  "id": "A05",
+  "where": "Eq. (fold)",
+  "quantity": "(r_+ - r_h)/[2sqrt2 3^(1/4)/3 sqrt(eps)] at eps=1e-8",
+  "cmp": "abs",
+  "src": [
+   "analytic_checks.json",
+   "fold",
+   "1e-08",
+   "r_plus_ratio"
+  ],
+  "reason": "limit eps->0; O(sqrt(eps)) corrections ~1e-4",
+  "mode": "quick",
+  "paper": 1.0,
+  "tol": 0.001
+ },
+ {
+  "id": "A06",
+  "where": "Eq. (fold)",
+  "quantity": "kappa/(c_kappa sqrt(eps)) at eps=1e-8",
+  "cmp": "abs",
+  "src": [
+   "analytic_checks.json",
+   "fold",
+   "1e-08",
+   "kappa_ratio"
+  ],
+  "reason": "limit eps->0; O(sqrt(eps)) corrections ~1e-4",
+  "mode": "quick",
+  "paper": 1.0,
+  "tol": 0.001
+ },
+ {
+  "id": "A07",
+  "where": "Eq. (fold)",
+  "quantity": "c_kappa",
+  "cmp": "abs",
+  "src": [
+   "analytic_checks.json",
+   "c_kappa"
+  ],
+  "reason": "paper quotes 2 s.f.",
+  "mode": "quick",
+  "paper": 0.41,
+  "tol": 0.005
+ },
+ {
+  "id": "A08",
+  "where": "Sec. 2.2",
+  "quantity": "(1/2) f''(r_h) 3 ell^2 at M* (AdS2)",
+  "cmp": "abs",
+  "src": [
+   "analytic_checks.json",
+   "half_fpp_times_3"
+  ],
+  "reason": "numerical second derivative, mpmath 30 digits",
+  "mode": "quick",
+  "paper": 1.0,
+  "tol": 1e-06
+ },
+ {
+  "id": "A09",
+  "where": "Sec. 2.2",
+  "quantity": "r_+/2M-1: exact root vs series (M=1e3 ell)",
+  "cmp": "rel",
+  "src": [
+   "analytic_checks.json",
+   "eta",
+   "1000",
+   "r_exact"
+  ],
+  "reason": "series truncated at eta^2; numerical derivative",
+  "mode": "quick",
+  "tol": 0.0001,
+  "paper_ref": [
+   "analytic_checks.json",
+   "eta",
+   "1000",
+   "r_series"
+  ]
+ },
+ {
+  "id": "A10",
+  "where": "Sec. 2.2",
+  "quantity": "kappa/kappa_S-1: exact vs series (M=1e3 ell)",
+  "cmp": "rel",
+  "src": [
+   "analytic_checks.json",
+   "eta",
+   "1000",
+   "kappa_exact"
+  ],
+  "reason": "series truncated at eta^2; numerical derivative",
+  "mode": "quick",
+  "tol": 0.0001,
+  "paper_ref": [
+   "analytic_checks.json",
+   "eta",
+   "1000",
+   "kappa_series"
+  ]
+ },
+ {
+  "id": "A11",
+  "where": "Sec. 2.2",
+  "quantity": "r_+/2M-1: exact root vs series (M=1e4 ell)",
+  "cmp": "rel",
+  "src": [
+   "analytic_checks.json",
+   "eta",
+   "10000",
+   "r_exact"
+  ],
+  "reason": "series truncated at eta^2; numerical derivative",
+  "mode": "quick",
+  "tol": 0.0001,
+  "paper_ref": [
+   "analytic_checks.json",
+   "eta",
+   "10000",
+   "r_series"
+  ]
+ },
+ {
+  "id": "A12",
+  "where": "Sec. 2.2",
+  "quantity": "kappa/kappa_S-1: exact vs series (M=1e4 ell)",
+  "cmp": "rel",
+  "src": [
+   "analytic_checks.json",
+   "eta",
+   "10000",
+   "kappa_exact"
+  ],
+  "reason": "series truncated at eta^2; numerical derivative (value 5e-9: finite-difference noise ~1e-12)",
+  "mode": "quick",
+  "tol": 0.001,
+  "paper_ref": [
+   "analytic_checks.json",
+   "eta",
+   "10000",
+   "kappa_series"
+  ]
+ },
+ {
+  "id": "A13",
+  "where": "Sec. 2.2",
+  "quantity": "eta = (l_P/(G 10Msun/c^2))^2",
+  "cmp": "rel",
+  "src": [
+   "analytic_checks.json",
+   "eta_10Msun"
+  ],
+  "reason": "paper quotes 2 s.f.",
+  "mode": "quick",
+  "paper": 1.2e-78,
+  "tol": 0.02
+ },
+ {
+  "id": "A14",
+  "where": "Sec. 3.1",
+  "quantity": "Hawking power P(10 Msun) [W]",
+  "cmp": "rel",
+  "src": [
+   "analytic_checks.json",
+   "P_10Msun_W"
+  ],
+  "reason": "paper quotes 2 s.f.",
+  "mode": "quick",
+  "paper": 9e-31,
+  "tol": 0.01
+ },
+ {
+  "id": "A15",
+  "where": "Sec. 3.1",
+  "quantity": "T_H(10 Msun) [K]",
+  "cmp": "rel",
+  "src": [
+   "analytic_checks.json",
+   "TH_10Msun_K"
+  ],
+  "reason": "paper quotes 1 s.f. (6.17e-9)",
+  "mode": "quick",
+  "paper": 6e-09,
+  "tol": 0.05
+ },
+ {
+  "id": "A16",
+  "where": "Sec. 3.1",
+  "quantity": "adiabaticity A(10 Msun)",
+  "cmp": "rel",
+  "src": [
+   "analytic_checks.json",
+   "A_10Msun"
+  ],
+  "reason": "paper quotes 1 s.f. (4.97e-83)",
+  "mode": "quick",
+  "paper": 5e-83,
+  "tol": 0.01
+ },
+ {
+  "id": "A17",
+  "where": "Eq. (adiabaticity-param)",
+  "quantity": "P (r_s/c)/(M c^2) equals hbar c/(7680 pi G M^2)",
+  "cmp": "rel",
+  "src": [
+   "analytic_checks.json",
+   "A_from_definition_10Msun"
+  ],
+  "reason": "same number two ways",
+  "mode": "quick",
+  "tol": 1e-06,
+  "paper_ref": [
+   "analytic_checks.json",
+   "A_10Msun"
+  ]
+ },
+ {
+  "id": "A18",
+  "where": "Sec. 3.1",
+  "quantity": "M_break [kg]",
+  "cmp": "rel",
+  "src": [
+   "analytic_checks.json",
+   "M_break_kg"
+  ],
+  "reason": "paper quotes 2 s.f.",
+  "mode": "quick",
+  "paper": 1.4e-10,
+  "tol": 0.01
+ },
+ {
+  "id": "A19",
+  "where": "Sec. 3.1",
+  "quantity": "M_break/m_P",
+  "cmp": "rel",
+  "src": [
+   "analytic_checks.json",
+   "M_break_over_mP"
+  ],
+  "reason": "paper quotes 2 s.f.",
+  "mode": "quick",
+  "paper": 0.0064,
+  "tol": 0.01
+ },
+ {
+  "id": "A20",
+  "where": "Sec. 3.1",
+  "quantity": "M*/M_break ('more than two orders of magnitude')",
+  "cmp": "range",
+  "src": [
+   "analytic_checks.json",
+   "Mstar_over_Mbreak"
+  ],
+  "reason": "qualitative statement; value 202",
+  "mode": "quick",
+  "lo": 100.0
+ },
+ {
+  "id": "A21",
+  "where": "Sec. 3.1",
+  "quantity": "A(M*) (Schwarzschild expression at threshold)",
+  "cmp": "rel",
+  "src": [
+   "analytic_checks.json",
+   "A_Mstar"
+  ],
+  "reason": "paper quotes 2 s.f.",
+  "mode": "quick",
+  "paper": 2.5e-05,
+  "tol": 0.02
+ },
+ {
+  "id": "A22",
+  "where": "Eq. (far-field-identity)",
+  "quantity": "delta/r_+ = |r_+'|/(kappa r_+) vs 2A (SI, 10 Msun)",
+  "cmp": "rel",
+  "src": [
+   "analytic_checks.json",
+   "far_field_delta_over_rp"
+  ],
+  "reason": "same number two ways",
+  "mode": "quick",
+  "tol": 1e-06,
+  "paper_ref": [
+   "analytic_checks.json",
+   "far_field_2A"
+  ]
+ },
+ {
+  "id": "A23",
+  "where": "Sec. 3.2",
+  "quantity": "eps_c = (c_kappa/2pi)^2 [Planck masses]",
+  "cmp": "rel",
+  "src": [
+   "analytic_checks.json",
+   "eps_c_mP"
+  ],
+  "reason": "paper: 'a crude estimate', 1 s.f. (4.33e-3)",
+  "mode": "quick",
+  "paper": 0.004,
+  "tol": 0.1
+ },
+ {
+  "id": "A24",
+  "where": "Sec. 4.4",
+  "quantity": "S_BH(10 Msun) [bits] ('~1e79')",
+  "cmp": "log10",
+  "src": [
+   "analytic_checks.json",
+   "S_BH_bits_10Msun"
+  ],
+  "reason": "order-of-magnitude statement",
+  "mode": "quick",
+  "paper": 1e+79,
+  "tol": 0.5
+ },
+ {
+  "id": "A25",
+  "where": "Sec. 4.4",
+  "quantity": "E = M* c^2 [J]",
+  "cmp": "rel",
+  "src": [
+   "analytic_checks.json",
+   "E_Mstar_J"
+  ],
+  "reason": "paper quotes 2 s.f.",
+  "mode": "quick",
+  "paper": 2500000000.0,
+  "tol": 0.02
+ },
+ {
+  "id": "A26",
+  "where": "Sec. 2.3",
+  "quantity": "r_s/c for 10 Msun [s] ('order 1e-4 s')",
+  "cmp": "log10",
+  "src": [
+   "analytic_checks.json",
+   "rs_over_c_10Msun_s"
+  ],
+  "reason": "order-of-magnitude statement",
+  "mode": "quick",
+  "paper": 0.0001,
+  "tol": 0.5
+ },
+ {
+  "id": "A27",
+  "where": "Sec. 2.2",
+  "quantity": "Hawking evaporation time of 10 Msun [yr] ('~1e70 years')",
+  "cmp": "log10",
+  "src": [
+   "analytic_checks.json",
+   "tevap_10Msun_yr"
+  ],
+  "reason": "order-of-magnitude statement",
+  "mode": "quick",
+  "paper": 1e+70,
+  "tol": 0.5
+ },
+ {
+  "id": "A28",
+  "where": "Sec. 4.4",
+  "quantity": "Bekenstein bound for M* c^2 within R=l_P [bits] ('a handful')",
+  "cmp": "range",
+  "src": [
+   "analytic_checks.json",
+   "bekenstein_bits_Mstar_in_lP"
+  ],
+  "reason": "qualitative ('a handful'); computed value is ~12 bits",
+  "mode": "quick",
+  "lo": 1.0,
+  "hi": 20.0
+ },
+ {
+  "id": "A29",
+  "where": "Sec. 5.1",
+  "quantity": "r_min numeric vs 2^(2/3)M^(1/3) (M=0.5 M*, ell=1)",
+  "cmp": "rel",
+  "src": [
+   "analytic_checks.json",
+   "rmin",
+   "0.5",
+   "r_num"
+  ],
+  "reason": "grid search, spacing 1e-5",
+  "mode": "quick",
+  "tol": 0.0001,
+  "paper_ref": [
+   "analytic_checks.json",
+   "rmin",
+   "0.5",
+   "r_formula"
+  ]
+ },
+ {
+  "id": "A30",
+  "where": "Sec. 5.1",
+  "quantity": "f(r_min) numeric vs 1-(M/M*)^(2/3) (M=0.5 M*)",
+  "cmp": "rel",
+  "src": [
+   "analytic_checks.json",
+   "rmin",
+   "0.5",
+   "f_num"
+  ],
+  "reason": "grid search",
+  "mode": "quick",
+  "tol": 1e-05,
+  "paper_ref": [
+   "analytic_checks.json",
+   "rmin",
+   "0.5",
+   "f_formula"
+  ]
+ },
+ {
+  "id": "A31",
+  "where": "Sec. 5.1",
+  "quantity": "r_min numeric vs 2^(2/3)M^(1/3) (M=0.9 M*, ell=1)",
+  "cmp": "rel",
+  "src": [
+   "analytic_checks.json",
+   "rmin",
+   "0.9",
+   "r_num"
+  ],
+  "reason": "grid search, spacing 1e-5",
+  "mode": "quick",
+  "tol": 0.0001,
+  "paper_ref": [
+   "analytic_checks.json",
+   "rmin",
+   "0.9",
+   "r_formula"
+  ]
+ },
+ {
+  "id": "A32",
+  "where": "Sec. 5.1",
+  "quantity": "f(r_min) numeric vs 1-(M/M*)^(2/3) (M=0.9 M*)",
+  "cmp": "rel",
+  "src": [
+   "analytic_checks.json",
+   "rmin",
+   "0.9",
+   "f_num"
+  ],
+  "reason": "grid search",
+  "mode": "quick",
+  "tol": 1e-05,
+  "paper_ref": [
+   "analytic_checks.json",
+   "rmin",
+   "0.9",
+   "f_formula"
+  ]
+ },
+ {
+  "id": "A33",
+  "where": "Sec. 5.1",
+  "quantity": "r_min numeric vs 2^(2/3)M^(1/3) (M=0.99 M*, ell=1)",
+  "cmp": "rel",
+  "src": [
+   "analytic_checks.json",
+   "rmin",
+   "0.99",
+   "r_num"
+  ],
+  "reason": "grid search, spacing 1e-5",
+  "mode": "quick",
+  "tol": 0.0001,
+  "paper_ref": [
+   "analytic_checks.json",
+   "rmin",
+   "0.99",
+   "r_formula"
+  ]
+ },
+ {
+  "id": "A34",
+  "where": "Sec. 5.1",
+  "quantity": "f(r_min) numeric vs 1-(M/M*)^(2/3) (M=0.99 M*)",
+  "cmp": "rel",
+  "src": [
+   "analytic_checks.json",
+   "rmin",
+   "0.99",
+   "f_num"
+  ],
+  "reason": "grid search",
+  "mode": "quick",
+  "tol": 1e-05,
+  "paper_ref": [
+   "analytic_checks.json",
+   "rmin",
+   "0.99",
+   "f_formula"
+  ]
+ },
+ {
+  "id": "A35",
+  "where": "Sec. 5.3",
+  "quantity": "smallest M/M* with inner light ring (bisection; paper: 0.81 M* <~ M)",
+  "cmp": "range",
+  "src": [
+   "analytic_checks.json",
+   "lightring_threshold"
+  ],
+  "reason": "paper quotes 0.81 M* (2 s.f., '<~'); exact value 0.80954 (S17)",
+  "mode": "quick",
+  "paper": 0.81,
+  "lo": 0.805,
+  "hi": 0.81
+ },
+ {
+  "id": "A36",
+  "where": "Sec. 5.3",
+  "quantity": "inner light-ring radius at 0.95 M* [ell] (paper 1.73-1.77)",
+  "cmp": "range",
+  "src": [
+   "analytic_checks.json",
+   "lightring",
+   "0.95",
+   0,
+   "r"
+  ],
+  "reason": "range quoted in the paper",
+  "mode": "quick",
+  "lo": 1.73,
+  "hi": 1.77
+ },
+ {
+  "id": "A37",
+  "where": "Sec. 5.3",
+  "quantity": "inner light-ring radius at M* [ell] (paper 1.73-1.77)",
+  "cmp": "range",
+  "src": [
+   "analytic_checks.json",
+   "lightring",
+   "1.0",
+   0,
+   "r"
+  ],
+  "reason": "range quoted in the paper",
+  "mode": "quick",
+  "lo": 1.73,
+  "hi": 1.77
+ },
+ {
+  "id": "A38",
+  "where": "Sec. 5.3",
+  "quantity": "outer maximum of f/r^2 at 0.99 M* [ell^-2] ('about 0.025')",
+  "cmp": "range",
+  "src": [
+   "analytic_checks.json",
+   "lightring",
+   "0.99",
+   1,
+   "g"
+  ],
+  "reason": "'about 0.025' (value 0.0251; 0.0276 at 0.95 M*); v1.0.1 said 'about 0.02'",
+  "mode": "quick",
+  "lo": 0.024,
+  "hi": 0.028
+ },
+ {
+  "id": "A39",
+  "where": "Sec. 5.3",
+  "quantity": "inner minimum of f/r^2 near M* ('nearly zero')",
+  "cmp": "range",
+  "src": [
+   "analytic_checks.json",
+   "lightring",
+   "0.99",
+   0,
+   "g"
+  ],
+  "reason": "'nearly zero' (value 0.0022)",
+  "mode": "quick",
+  "lo": 0.0,
+  "hi": 0.005
+ },
+ {
+  "id": "F01",
+  "where": "Fig. 1",
+  "quantity": "plotted Gamma=sqrt(f(2M)) equals closed form ell/sqrt(4M^2+ell^2) (max abs deviation)",
+  "cmp": "abs",
+  "src": [
+   "sublimation_curve.json",
+   "max_abs_dev_from_closed_form"
+  ],
+  "reason": "floating point",
+  "mode": "quick",
+  "paper": 0.0,
+  "tol": 1e-09
+ },
+ {
+  "id": "F02",
+  "where": "Fig. 1",
+  "quantity": "Gamma increases monotonically as M decreases (1 -> 1e-4)",
+  "cmp": "true",
+  "src": [
+   "sublimation_curve.json",
+   "monotone_increasing_as_M_decreases"
+  ],
+  "reason": "shape of curve",
+  "mode": "quick",
+  "paper": true
+ },
+ {
+  "id": "F03",
+  "where": "Fig. 1",
+  "quantity": "regenerated PNG has the pixel size of the shipped sublimation_curve.png",
+  "cmp": "true",
+  "src": [
+   "sublimation_curve.json",
+   "shipped_png_same_shape"
+  ],
+  "reason": "1000x600",
+  "mode": "quick",
+  "paper": true
+ },
+ {
+  "id": "F04",
+  "where": "Fig. 1",
+  "quantity": "mean abs RGB difference to the shipped PNG",
+  "cmp": "abs",
+  "src": [
+   "sublimation_curve.json",
+   "shipped_png_mean_abs_pixel_diff"
+  ],
+  "reason": "same curve; text antialiasing/font hinting differ between matplotlib versions",
+  "mode": "quick",
+  "paper": 0.0,
+  "tol": 0.06
+ },
+ {
+  "id": "W01",
+  "where": "Table 1, row 1",
+  "quantity": "LaTeX row regenerated by wkb.py equals the row in main.tex",
+  "cmp": "table_row",
+  "src": [
+   "wkb.json",
+   "table1_latex",
+   0
+  ],
+  "reason": "exact string match of Re(w) (3 d.p.), Q and tau (2 s.f.)",
+  "mode": "quick"
+ },
+ {
+  "id": "W02",
+  "where": "Table 1, row 2",
+  "quantity": "LaTeX row regenerated by wkb.py equals the row in main.tex",
+  "cmp": "table_row",
+  "src": [
+   "wkb.json",
+   "table1_latex",
+   1
+  ],
+  "reason": "exact string match of Re(w) (3 d.p.), Q and tau (2 s.f.)",
+  "mode": "quick"
+ },
+ {
+  "id": "W03",
+  "where": "Table 1, row 3",
+  "quantity": "LaTeX row regenerated by wkb.py equals the row in main.tex",
+  "cmp": "table_row",
+  "src": [
+   "wkb.json",
+   "table1_latex",
+   2
+  ],
+  "reason": "exact string match of Re(w) (3 d.p.), Q and tau (2 s.f.)",
+  "mode": "quick"
+ },
+ {
+  "id": "W04",
+  "where": "Table 1, row 4",
+  "quantity": "LaTeX row regenerated by wkb.py equals the row in main.tex",
+  "cmp": "table_row",
+  "src": [
+   "wkb.json",
+   "table1_latex",
+   3
+  ],
+  "reason": "exact string match of Re(w) (3 d.p.), Q and tau (2 s.f.)",
+  "mode": "quick"
+ },
+ {
+  "id": "W05",
+  "where": "Table 1, row 5",
+  "quantity": "LaTeX row regenerated by wkb.py equals the row in main.tex",
+  "cmp": "table_row",
+  "src": [
+   "wkb.json",
+   "table1_latex",
+   4
+  ],
+  "reason": "exact string match of Re(w) (3 d.p.), Q and tau (2 s.f.)",
+  "mode": "quick"
+ },
+ {
+  "id": "W06",
+  "where": "Table 1, row 6",
+  "quantity": "LaTeX row regenerated by wkb.py equals the row in main.tex",
+  "cmp": "table_row",
+  "src": [
+   "wkb.json",
+   "table1_latex",
+   5
+  ],
+  "reason": "exact string match of Re(w) (3 d.p.), Q and tau (2 s.f.)",
+  "mode": "quick"
+ },
+ {
+  "id": "W07",
+  "where": "Table 1 caption / Sec. 5.4",
+  "quantity": "well-to-barrier gap at l=5, M=0.90 M* [ell^-2]",
+  "cmp": "abs",
+  "src": [
+   "wkb.json",
+   "gap_l5",
+   "0.90"
+  ],
+  "reason": "paper quotes 2 d.p.",
+  "mode": "quick",
+  "paper": 0.28,
+  "tol": 0.005
+ },
+ {
+  "id": "W08",
+  "where": "Table 1 caption",
+  "quantity": "well-to-barrier gap at l=5, M=0.99 M* [ell^-2]",
+  "cmp": "abs",
+  "src": [
+   "wkb.json",
+   "gap_l5",
+   "0.99"
+  ],
+  "reason": "paper quotes 2 d.p.",
+  "mode": "quick",
+  "paper": 0.7,
+  "tol": 0.005
+ },
+ {
+  "id": "W09",
+  "where": "Sec. 5.4",
+  "quantity": "Q (WKB) at l=1, M=0.90 M* ('Q ~ 20')",
+  "cmp": "rel",
+  "src": [
+   "wkb.json",
+   "modes",
+   "0.90_1_0",
+   "Q"
+  ],
+  "reason": "'~20'",
+  "mode": "quick",
+  "paper": 20.0,
+  "tol": 0.2
+ },
+ {
+  "id": "W10",
+  "where": "Sec. 5.4",
+  "quantity": "tau (WKB) at l=1, M=0.90 M* [ell/c] ('~1e2')",
+  "cmp": "log10",
+  "src": [
+   "wkb.json",
+   "modes",
+   "0.90_1_0",
+   "tau"
+  ],
+  "reason": "'~1e2'",
+  "mode": "quick",
+  "paper": 100.0,
+  "tol": 0.3
+ },
+ {
+  "id": "W11",
+  "where": "Table 1",
+  "quantity": "scipy vs mpmath(30 digits, tanh-sinh): max rel. difference of Q,tau,Im(w),S over the six rows",
+  "cmp": "abs",
+  "src": [
+   "derived",
+   "wkb_mp_max_rel"
+  ],
+  "reason": "independent quadrature of the singular endpoint integrals",
+  "mode": "quick",
+  "paper": 0.0,
+  "tol": 1e-06
+ },
+ {
+  "id": "W12",
+  "where": "Table 1",
+  "quantity": "Bohr-Sommerfeld residual of the six modes (mpmath)",
+  "cmp": "abs",
+  "src": [
+   "derived",
+   "wkb_bs_max_resid"
+  ],
+  "reason": "E solved by brentq to xtol 1e-10",
+  "mode": "quick",
+  "paper": 0.0,
+  "tol": 1e-07
+ },
+ {
+  "id": "T01",
+  "where": "Sec. 5.4",
+  "quantity": "time-domain omega_R (l=2, 0.90 M*, Nx=6000); paper: 0.4296 +- 0.0003",
+  "cmp": "abs",
+  "src": [
+   "timedomain_fit.json",
+   "runs",
+   "6000",
+   "wR"
+  ],
+  "reason": "paper quotes 0.4296 +- 0.0003 (FFT bin width 2.5e-4; peak drifts 0.4294-0.4297 over Nx=3000..12000). v1.0.1 quoted 0.4298, not reproducible",
+  "mode": "quick",
+  "paper": 0.4296,
+  "tol": 0.0003
+ },
+ {
+  "id": "T02",
+  "where": "Sec. 5.4",
+  "quantity": "time-domain decay rate [1/ell]",
+  "cmp": "rel",
+  "src": [
+   "timedomain_fit.json",
+   "runs",
+   "6000",
+   "decay"
+  ],
+  "reason": "paper quotes 3 s.f.",
+  "mode": "quick",
+  "paper": 0.00308,
+  "tol": 0.002
+ },
+ {
+  "id": "T03",
+  "where": "Sec. 5.4",
+  "quantity": "WKB omega_R",
+  "cmp": "abs",
+  "src": [
+   "timedomain_fit.json",
+   "wkb",
+   "wR"
+  ],
+  "reason": "paper quotes 4 d.p.",
+  "mode": "quick",
+  "paper": 0.4303,
+  "tol": 6e-05
+ },
+ {
+  "id": "T04",
+  "where": "Sec. 5.4",
+  "quantity": "WKB |Im omega|",
+  "cmp": "rel",
+  "src": [
+   "timedomain_fit.json",
+   "wkb",
+   "absIm"
+  ],
+  "reason": "paper quotes 3 s.f.",
+  "mode": "quick",
+  "paper": 0.00271,
+  "tol": 0.002
+ },
+ {
+  "id": "T05",
+  "where": "Sec. 5.4",
+  "quantity": "|omega_R(TD)-omega_R(WKB)|/omega_R(WKB) ('0.2%')",
+  "cmp": "abs",
+  "src": [
+   "derived",
+   "td_wr_reldiff"
+  ],
+  "reason": "paper quotes 1 s.f.; WKB value uses the corrected Gamow prefactor (see compare_wkb_original.py)",
+  "mode": "quick",
+  "paper": 0.002,
+  "tol": 0.0005
+ },
+ {
+  "id": "T06",
+  "where": "Sec. 5.4",
+  "quantity": "decay(TD)/|Im omega|(WKB) ('a factor of 1.14')",
+  "cmp": "abs",
+  "src": [
+   "timedomain_fit.json",
+   "runs",
+   "6000",
+   "decay_over_wkb"
+  ],
+  "reason": "paper quotes 3 s.f.",
+  "mode": "quick",
+  "paper": 1.14,
+  "tol": 0.005
+ },
+ {
+  "id": "T07",
+  "where": "Sec. 5.4",
+  "quantity": "max change of TD decay rate between Nx=6000 and Nx=3000 / 12000 ('<0.5%')",
+  "cmp": "range",
+  "src": [
+   "derived",
+   "td_decay_grid_change"
+  ],
+  "reason": "'less than 0.5%'",
+  "mode": "quick",
+  "lo": 0.0,
+  "hi": 0.005
+ },
+ {
+  "id": "T08",
+  "where": "Sec. 5.4",
+  "quantity": "max change of TD omega_R between Nx=6000 and Nx=3000 / 12000",
+  "cmp": "range",
+  "src": [
+   "derived",
+   "td_wr_grid_change"
+  ],
+  "reason": "grid convergence (not quoted numerically)",
+  "mode": "quick",
+  "lo": 0.0,
+  "hi": 0.005
+ },
+ {
+  "id": "T10",
+  "where": "Sec. 5.4",
+  "quantity": "time-domain decay rate from a damped-sinusoid least-squares fit (Nx=6000), independent of the envelope trim",
+  "cmp": "rel",
+  "src": [
+   "timedomain_fit.json",
+   "runs",
+   "6000",
+   "decay_lsq"
+  ],
+  "reason": "paper: 3.08e-3 (3 s.f.); LSQ 3.081e-3; added after v1.0.1",
+  "mode": "quick",
+  "paper": 0.00308,
+  "tol": 0.005
+ },
+ {
+  "id": "T11",
+  "where": "Sec. 5.4",
+  "quantity": "omega_R from the damped-sinusoid fit (Nx=6000)",
+  "cmp": "abs",
+  "src": [
+   "timedomain_fit.json",
+   "runs",
+   "6000",
+   "wR_lsq"
+  ],
+  "reason": "paper: 0.4296 +- 0.0003 ('0.4296-0.4297' by least squares)",
+  "mode": "quick",
+  "paper": 0.4296,
+  "tol": 0.0003
+ },
+ {
+  "id": "T12",
+  "where": "Sec. 5.4",
+  "quantity": "envelope-fit decay vs least-squares decay, max rel. difference over Nx=3000,6000,12000 ('agrees to 0.2%')",
+  "cmp": "range",
+  "src": [
+   "derived",
+   "td_decay_lsq_vs_env"
+  ],
+  "reason": "'to 0.2%'",
+  "mode": "quick",
+  "lo": 0.0,
+  "hi": 0.002
+ },
+ {
+  "id": "T09",
+  "where": "Sec. 5.4 (full)",
+  "quantity": "change of TD decay rate Nx=12000 -> 24000 (finer grid)",
+  "cmp": "range",
+  "src": [
+   "derived",
+   "td_decay_change_24000"
+  ],
+  "reason": "convergence extension",
+  "mode": "full",
+  "lo": 0.0,
+  "hi": 0.005
+ },
+ {
+  "id": "Q01",
+  "where": "Sec. 5.4",
+  "quantity": "direct Re(omega), l=2, 0.90 M*",
+  "cmp": "abs",
+  "src": [
+   "qnm_shooting.json",
+   "direct",
+   "0.90_2",
+   "re"
+  ],
+  "reason": "paper quotes 4 d.p.",
+  "mode": "quick",
+  "paper": 0.4296,
+  "tol": 6e-05
+ },
+ {
+  "id": "Q02",
+  "where": "Sec. 5.4",
+  "quantity": "direct -Im(omega), l=2, 0.90 M*",
+  "cmp": "abs",
+  "src": [
+   "qnm_shooting.json",
+   "direct",
+   "0.90_2",
+   "im"
+  ],
+  "reason": "paper quotes 3 s.f. (sign: Im<0, compared as |Im|)",
+  "mode": "quick",
+  "paper": 0.00307,
+  "tol": 6e-06,
+  "absval": true
+ },
+ {
+  "id": "Q03",
+  "where": "Sec. 5.4",
+  "quantity": "direct Re(omega) agrees with time domain (abs. diff)",
+  "cmp": "abs",
+  "src": [
+   "derived",
+   "qnm_td_wr_diff"
+  ],
+  "reason": "'in agreement'",
+  "mode": "quick",
+  "paper": 0.0,
+  "tol": 0.001
+ },
+ {
+  "id": "Q04",
+  "where": "Sec. 5.4",
+  "quantity": "direct |Im omega| agrees with time-domain decay rate (rel. diff)",
+  "cmp": "abs",
+  "src": [
+   "derived",
+   "qnm_td_decay_reldiff"
+  ],
+  "reason": "'in agreement'",
+  "mode": "quick",
+  "paper": 0.0,
+  "tol": 0.01
+ },
+ {
+  "id": "Q05",
+  "where": "Sec. 5.4",
+  "quantity": "direct Q (M/M*, l) = 0.90, 1",
+  "cmp": "rel",
+  "src": [
+   "qnm_shooting.json",
+   "direct",
+   "0.90_1",
+   "Q"
+  ],
+  "reason": "paper quotes 2 s.f.",
+  "mode": "quick",
+  "paper": 17.0,
+  "tol": 0.03
+ },
+ {
+  "id": "Q06",
+  "where": "Sec. 5.4",
+  "quantity": "direct Q (M/M*, l) = 0.90, 2",
+  "cmp": "rel",
+  "src": [
+   "qnm_shooting.json",
+   "direct",
+   "0.90_2",
+   "Q"
+  ],
+  "reason": "paper quotes 2 s.f.",
+  "mode": "quick",
+  "paper": 70.0,
+  "tol": 0.01
+ },
+ {
+  "id": "Q07",
+  "where": "Sec. 5.4",
+  "quantity": "direct Q (M/M*, l) = 0.90, 4",
+  "cmp": "rel",
+  "src": [
+   "qnm_shooting.json",
+   "direct",
+   "0.90_4",
+   "Q"
+  ],
+  "reason": "paper quotes 2 s.f.",
+  "mode": "quick",
+  "paper": 1400.0,
+  "tol": 0.04
+ },
+ {
+  "id": "Q08",
+  "where": "Sec. 5.4",
+  "quantity": "direct Q (M/M*, l) = 0.95, 1",
+  "cmp": "rel",
+  "src": [
+   "qnm_shooting.json",
+   "direct",
+   "0.95_1",
+   "Q"
+  ],
+  "reason": "paper quotes 2 s.f.",
+  "mode": "quick",
+  "paper": 200.0,
+  "tol": 0.03
+ },
+ {
+  "id": "Q09",
+  "where": "Sec. 5.4",
+  "quantity": "direct Q (M/M*, l) = 0.95, 2",
+  "cmp": "rel",
+  "src": [
+   "qnm_shooting.json",
+   "direct",
+   "0.95_2",
+   "Q"
+  ],
+  "reason": "paper quotes 2 s.f.",
+  "mode": "quick",
+  "paper": 6800.0,
+  "tol": 0.01
+ },
+ {
+  "id": "Q10",
+  "where": "Sec. 5.4",
+  "quantity": "direct Q (M/M*, l) = 0.99, 1",
+  "cmp": "rel",
+  "src": [
+   "qnm_shooting.json",
+   "direct",
+   "0.99_1",
+   "Q"
+  ],
+  "reason": "paper quotes 2 s.f.",
+  "mode": "quick",
+  "paper": 160000.0,
+  "tol": 0.04
+ },
+ {
+  "id": "Q11",
+  "where": "Sec. 5.4",
+  "quantity": "min over the six Table-1 entries of |Im|_direct/|Im|_WKB ('between 1.1 and 1.8')",
+  "cmp": "abs",
+  "src": [
+   "derived",
+   "qnm_ratio_min"
+  ],
+  "reason": "paper quotes 2 s.f.",
+  "mode": "quick",
+  "paper": 1.1,
+  "tol": 0.05
+ },
+ {
+  "id": "Q12",
+  "where": "Sec. 5.4",
+  "quantity": "max over the six Table-1 entries of |Im|_direct/|Im|_WKB ('between 1.1 and 1.8')",
+  "cmp": "abs",
+  "src": [
+   "derived",
+   "qnm_ratio_max"
+  ],
+  "reason": "paper quotes 2 s.f. (value 1.82 rounds to 1.8)",
+  "mode": "quick",
+  "paper": 1.8,
+  "tol": 0.05
+ },
+ {
+  "id": "Q13",
+  "where": "Sec. 5.4",
+  "quantity": "robustness: Re/Im(omega) with matching point r_m=1.8 vs 2.0 (max abs diff)",
+  "cmp": "abs",
+  "src": [
+   "derived",
+   "qnm_rm_robust"
+  ],
+  "reason": "result must not depend on r_m",
+  "mode": "quick",
+  "paper": 0.0,
+  "tol": 1e-06
+ },
+ {
+  "id": "Q14",
+  "where": "Sec. 5.4 (full)",
+  "quantity": "direct omega with all RK4 steps halved vs default (max abs diff over the 7 modes)",
+  "cmp": "abs",
+  "src": [
+   "derived",
+   "qnm_refine_diff"
+  ],
+  "reason": "step-size convergence",
+  "mode": "full",
+  "paper": 0.0,
+  "tol": 1e-06
+ },
+ {
+  "id": "P01",
+  "where": "PROVENANCE (not in paper text)",
+  "quantity": "original wkb.py functions reproduce the six rows of Table 1 of v1.0.1 (Re(w) 3 d.p., Q and tau 2 s.f.)",
+  "cmp": "true",
+  "src": [
+   "compare_wkb_original.json",
+   "v101_table_reproduced",
+   "ok"
+  ],
+  "reason": "proves that v1.0.1 Table 1 came from the shipped original script (compare_wkb_original.py)",
+  "mode": "quick",
+  "paper": true
+ },
+ {
+  "id": "P02",
+  "where": "Sec. 5.4 (Gamow correction)",
+  "quantity": "max |Im(w)_corrected * 2 w_R / Im(w)_original - 1| over the six Table-1 rows",
+  "cmp": "abs",
+  "src": [
+   "compare_wkb_original.json",
+   "max_rel_Im_prefactor"
+  ],
+  "reason": "the only difference between the two prefactors is the factor 1/(2 w_R); residual is quadrature/derivative noise (1.1e-7)",
+  "mode": "quick",
+  "paper": 0.0,
+  "tol": 1e-06
+ },
+ {
+  "id": "P03",
+  "where": "Sec. 5.4 (Gamow correction)",
+  "quantity": "max rel. difference of Re(w) between original and corrected wkb.py over the six rows",
+  "cmp": "abs",
+  "src": [
+   "compare_wkb_original.json",
+   "max_rel_wR"
+  ],
+  "reason": "Re(w) unchanged by the correction",
+  "mode": "quick",
+  "paper": 0.0,
+  "tol": 1e-08
+ },
+ {
+  "id": "P04",
+  "where": "Sec. 5.4 (Gamow correction)",
+  "quantity": "direct |Im|/|Im|_corrected-WKB at 0.90 M*, l=1..7: max/min ratio (stays ~constant)",
+  "cmp": "range",
+  "src": [
+   "compare_wkb_original.json",
+   "spread_ratio_corrected"
+  ],
+  "reason": "evidence that the corrected prefactor has the right l-scaling (values 1.13-1.33)",
+  "mode": "quick",
+  "lo": 1.0,
+  "hi": 1.3
+ },
+ {
+  "id": "P05",
+  "where": "Sec. 5.4 (Gamow correction)",
+  "quantity": "direct |Im|/|Im|_original-WKB at 0.90 M*, l=1..7: max/min ratio (drifts like 1/(2 w_R))",
+  "cmp": "range",
+  "src": [
+   "compare_wkb_original.json",
+   "spread_ratio_original"
+  ],
+  "reason": "evidence that the original prefactor has the wrong scaling (values 2.40 ... 0.51)",
+  "mode": "quick",
+  "lo": 3.0
+ }
+]

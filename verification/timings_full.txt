@@ -1,0 +1,13 @@
+wall-clock seconds per script (full), this machine; sum = 3268 s
+check_symbolic                   28.4
+check_analytic                   10.4
+wkb                              36.7
+crosscheck_wkb_mpmath            16.7
+timedomain_nx6000               173.3
+timedomain_nx3000                59.1
+timedomain_nx12000              503.0
+make_fig_sublimation             13.9
+timedomain_nx24000             2016.8
+fit_timedomain                   28.4
+qnm_shooting                    133.1
+qnm_shooting_refine2            248.7

@@ -1,0 +1,21 @@
+# numpy 2.5.3; scipy 1.18.1
+(1) original wkb.py functions vs corrected wkb.py, Table-1 rows (n=0)
+M/M*  l | Re(w) | original: Im, Q, tau | corrected: Im, Q, tau | Im_new*2wR/Im_old - 1 | v1.0.1 table row reproduced
+0.90 1 | 0.27729 | -3.3376e-03 4.154e+01 2.996e+02 | -6.0181e-03 2.304e+01 1.662e+02 | 1.1e-07 | True
+0.90 2 | 0.43032 | -2.3338e-03 9.219e+01 4.285e+02 | -2.7117e-03 7.934e+01 3.688e+02 | 2.0e-08 | True
+0.90 4 | 0.73214 | -3.1767e-04 1.152e+03 3.148e+03 | -2.1695e-04 1.687e+03 4.609e+03 | 1.3e-08 | True
+0.95 1 | 0.20026 | -1.1267e-04 8.887e+02 8.876e+03 | -2.8130e-04 3.559e+02 3.555e+03 | 5.6e-08 | True
+0.95 2 | 0.30897 | -9.1604e-06 1.686e+04 1.092e+05 | -1.4824e-05 1.042e+04 6.746e+04 | 2.2e-08 | True
+0.99 1 | 0.09015 | -3.3632e-08 1.340e+06 2.973e+07 | -1.8653e-07 2.416e+05 5.361e+06 | 1.0e-08 | True
+v1.0.1 Table 1 reproduced by the original functions: True; max |Im_new*2wR/Im_old-1| = 1.14e-07; max rel. diff Re(w) 5.3e-12, S 1.3e-09
+
+(2) direct complex-frequency integration (qnm_shooting.py) vs both WKB versions, M = 0.90 M*
+ l | direct omega | |Im|_direct/|Im|_corrected | |Im|_direct/|Im|_original
+ 1 | 0.27841-8.0110e-03i | 1.331 | 2.400
+ 2 | 0.42963-3.0719e-03i | 1.133 | 1.316
+ 3 | 0.58123-9.7018e-04i | 1.174 | 1.009
+ 4 | 0.73233-2.6284e-04i | 1.212 | 0.827
+ 5 | 0.88293-6.4447e-05i | 1.220 | 0.691
+ 6 | 1.03319-1.4931e-05i | 1.214 | 0.588
+ 7 | 1.18328-3.3492e-06i | 1.203 | 0.509
+max/min over l: corrected 1.18, original 4.72
